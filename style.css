@@ -1,0 +1,62 @@
+body {
+    background-color: #45788C;
+    font-weight: bold;
+}
+header{
+    min-height: 100px;
+    background-color: #D9C196;
+
+    border-bottom: 5px solid #F26938;
+}
+main{
+    min-height: 600px;
+}
+footer{
+    min-height: 100px;
+    background-color: #131F26;
+
+    border-top: 5px solid #F26938;
+}
+.wrapper{
+
+    max-width: 900px;
+    width: 100%;
+    margin: 0 auto;
+
+    min-height: 600px;
+
+    background-color: #D9D1BA;
+}
+.red{
+    background: red;
+}
+.green{
+    display: block;
+    margin: 0 auto;
+    background: green;
+    width: 100px;
+    height: 100px;
+}
+.black{
+    background: black;
+}
+.white{
+    background: white;
+    color:black;
+}
+
+/*  
+*   red, green, blue..
+*   bold, normal, black
+*   italic, normal
+*   center, left = start, right = end, top, bottom......
+*   inherit, initial, unset     
+*/
+
+/*
+*   "string", 10.0, #FF0000
+*/
+
+/*
+*   rgba(0,255,10, 0.5)
+*/
